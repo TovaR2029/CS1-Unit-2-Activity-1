@@ -1,16 +1,16 @@
 .flexbox {
     display: flex;
-    border: 2px solid darkred;
+    border: 2px solid red;
     padding: 20px;
 }
 
 .item {
-    border: 2px solid hotpink;
+    border: 2px solid darkred;
     padding: 20px;
 }
 #box1 {
     justify-content: space-evenly;
-    background: navy;
+    background: rgb(122, 3, 63);
 }
 #box2, #box3, #box4 {
     justify-content: center;
@@ -20,4 +20,7 @@
 }
 #innerbox4 {
     background: blue;
+}
+img {
+    border: 20px dotted darkred;
 }
