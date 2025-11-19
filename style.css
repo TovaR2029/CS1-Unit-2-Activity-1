@@ -21,6 +21,9 @@
 #innerbox4 {
     background: blue;
 }
-img {
+#img1 {
     border: 20px dotted darkred;
+}
+h2 {
+    text-align: center;
 }
