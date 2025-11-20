@@ -1,11 +1,9 @@
 .flexbox {
     display: flex;
-    border: 2px solid red;
     padding: 20px;
 }
 
 .item {
-    border: 2px solid darkred;
     padding: 20px;
 }
 #box1 {
@@ -16,14 +14,27 @@
     justify-content: center;
 }
 #box3 {
-    background: skyblue;
+    justify-content: space-between;
+}
+#box3 {
+    background: rgba(122, 3, 62, 0.474);
+    
 }
 #innerbox4 {
-    background: blue;
+    background: rgba(255, 192, 203, 0.885);
+}
+#box4 {
+    background: rgb(122, 3, 63);
 }
 #img1 {
     border: 20px dotted darkred;
 }
 h2 {
     text-align: center;
+}
+body {
+    background: rgba(122, 3, 62, 0.474);
+}
+.imgs {
+    border-radius: 20px;
 }
