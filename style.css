@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Butterfly+Kids&family=Emilys+Candy&family=Fascinate&family=Fascinate+Inline&family=Italiana&family=Leckerli+One&family=Lovers+Quarrel&family=Pinyon+Script&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Story+Script&display=swap');
+
 .flexbox {
     display: flex;
     padding: 20px;
@@ -22,19 +24,42 @@
 }
 #innerbox4 {
     background: rgba(255, 192, 203, 0.885);
+    align-items: center;
+    font-family: "Bonbon", cursive;
 }
 #box4 {
     background: rgb(122, 3, 63);
 }
 #img1 {
-    border: 20px dotted darkred;
+    border: 20px dotted rgba(59, 5, 14, 0.508);
+}
+h1 {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h2 {
-    text-align: center;
+   text-align: center;
+  font-family: "Butterfly Kids", cursive;
+ 
+}
+p {
+     font-family: "Story Script", sans-serif;
 }
 body {
     background: rgba(122, 3, 62, 0.474);
 }
 .imgs {
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 3px solid darkred;
+}
+#button1 {
+    background: linear-gradient(darkred,hotpink);
+    border-radius: 5px;
+    border: 2px solid rgb(65, 2, 2);
+    padding: 5px
+}
+h4 {
+   font-family: "Emilys Candy", serif;
+   font-size: 20px;
 }
